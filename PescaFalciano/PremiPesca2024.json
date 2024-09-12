@@ -1,4 +1,4 @@
-[
+var premi = [
   { "FromNumber": 26, "ToNumber": 109, "Description": "Matite flessibili (dare 3)"},
   { "FromNumber": 110, "ToNumber": 141, "Description": "Matite carisp (dare 2)"},
   { "FromNumber": 142, "ToNumber": 186, "Description": "Penne carisp (dare 2)"},
