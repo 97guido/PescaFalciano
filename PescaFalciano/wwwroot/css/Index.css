@@ -1,0 +1,23 @@
+﻿body {
+    background: green;
+}
+
+input, h1, h2 {
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    width: 40%;
+    font-family: Calibri;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+h1 {
+    margin-top: 25%;
+}
+
+input[type=number] {
+    padding: 1.5%;
+    border-radius: 40px;
+    border-style: none;
+}
