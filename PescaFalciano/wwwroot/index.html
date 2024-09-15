@@ -8,8 +8,8 @@
     <div class="text-center">
         <h1 class="display-4">Pesca Falciano 2024</h1>
         <input id="input_num" type="number" oninput="setDesc()"></input>
-        <input type="button" oninput="delNum()" value="Cancella"/>
-        <h2 id="input_description_show"></h2>
+        <input type="button" onclick="delNum()" value="Cancella" style="margin-top:1%; background: #2c3c2dff; color: crimson"/>
+        <h2 id="input_description_show" style="font-size: 60px;text-align:center;width:100%;margin-left:0%"></h2>
     </div>
 
     <script>
@@ -38,7 +38,8 @@
         }
 
         function delNum() {
-            document.getElementById('input_num').value = undefined;
+            document.getElementById('input_num').value = '';
+            document.getElementById('input_description_show').innerHTML = "";
         }
 
     </script>
